@@ -169,3 +169,7 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+import os
+
+token = os.getenv("DISCORD_TOKEN")
+api_key = os.getenv("GOOGLE_API_KEY")
