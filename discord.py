@@ -1,5 +1,3 @@
-
-
 import discord
 import google.generativeai as genai
 
